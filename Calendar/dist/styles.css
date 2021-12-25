@@ -1,0 +1,100 @@
+h1 {
+  color: darkblue;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  display: contents;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.calender {
+  box-shadow: 0 0 12px coral;
+}
+.calender__header {
+  height: 50px;
+  background-color: darksalmon;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.calender__dayName {
+  color: darkblue;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  background-color: darksalmon;
+  padding: 20px;
+}
+.calender__days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0px;
+  font-size: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.calender__days label {
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+}
+.calender__days input {
+  display: contents;
+}
+.calender__days-work {
+  cursor: pointer;
+}
+.calender__days-work:hover {
+  color: antiquewhite;
+  background: chartreuse;
+}
+.calender__days-work:focus {
+  color: antiquewhite;
+  background: cornflowerblue;
+}
+.calender__days-off {
+  cursor: pointer;
+}
+.calender__days-off:hover {
+  color: antiquewhite;
+  background: coral;
+}
+.calender__days-off:focus {
+  color: antiquewhite;
+  background: brown;
+}
+.calender__days-holiday {
+  cursor: pointer;
+  color: red;
+}
+.calender__days-holiday:hover {
+  color: antiquewhite;
+  background: coral;
+}
+.calender__days-holiday:focus {
+  color: antiquewhite;
+  background: brown;
+}
+.calender__days-preMonth {
+  background: bisque;
+  color: darkblue;
+  cursor: not-allowed;
+}
+.calender__days-nextMonth {
+  background: bisque;
+  color: darkblue;
+  cursor: not-allowed;
+}
